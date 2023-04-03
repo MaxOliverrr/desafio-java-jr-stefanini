@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+  server:
+    error:
+      includeStacktrace: on-param

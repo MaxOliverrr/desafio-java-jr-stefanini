@@ -1,0 +1,11 @@
+spring:
+    flyway:
+        enabled: true
+    application:
+        name: dev
+    datasource:
+        url: jdbc:mysql://localhost:3306/desafiojavajr?createDatabaseIfNotExist=true
+        username: root
+        password:
+    jpa:
+        show-sql: true

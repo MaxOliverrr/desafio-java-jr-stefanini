@@ -1,0 +1,3 @@
+INSERT IGNORE INTO AUTHOR (NAME, GENDER, BIRTH_DATE, EMAIL, CPF, COUNTRY_NAME) VALUES ('J. R. R. Tolkien', 'MALE', '1892-01-03', 'tolkien@mail.com', '238.192.050-12', 'South Africa');
+INSERT IGNORE INTO book (name, description,	publish_date) VALUES ('The Lord of the Rings', 'The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien.', '1954-07-29');
+INSERT IGNORE INTO authors_books (author_id, book_id) VALUES (1, 1);
